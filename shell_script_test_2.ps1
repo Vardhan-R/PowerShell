@@ -1,14 +1,17 @@
 Write-Output "lmao"
 
-Set-Location "..\parallel_test_2"
+.\shell_script_test_4.ps1 $args[0]
+.\shell_script_test_4.ps1 $args[1]
 
-$a = Get-ChildItem img_saver_txt_file*.txt
+# Set-Location "..\parallel_test"
 
-for ($i = 0; $i -lt $a.Length; $i++) {
-    Rename-Item $a[$i] -NewName ("img_saver_txt_file_" + $i + ".txt")
-}
+# $a = Get-ChildItem img_saver_txt_file*.txt
 
-Set-Location "..\power_shell_test_folder"
+# for ($i = 0; $i -lt $a.Length; $i++) {
+#     Rename-Item $a[$i] -NewName ("img_saver_txt_file_" + $i + ".txt")
+# }
+
+# Set-Location "..\power_shell_test_folder"
 
 # .\p_1.py 1
 # .\p_1.py 2
