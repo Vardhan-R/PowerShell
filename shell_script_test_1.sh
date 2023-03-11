@@ -1,0 +1,2 @@
+a = "lmao"
+echo a
