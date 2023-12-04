@@ -1,2 +1,2 @@
-a = "lmao"
-echo a
+a="lmao"
+echo $a
