@@ -1,2 +1,0 @@
-a="lmao"
-echo $a
